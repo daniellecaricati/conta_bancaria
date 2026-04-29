@@ -5,27 +5,6 @@
 <br />
 
 
-
-<div align="center">
-
-&#x20; <img src="https://img.shields.io/github/languages/top/conteudoGeneration/java?style=flat-square" />
-
-&#x20; <img src="https://img.shields.io/github/repo-size/conteudoGeneration/java?style=flat-square" />
-
-&#x20; <img src="https://img.shields.io/github/languages/count/conteudoGeneration/java?style=flat-square" />
-
-&#x20; <img src="https://img.shields.io/github/last-commit/conteudoGeneration/java?style=flat-square" />
-
-&#x20; <img src="https://img.shields.io/github/issues/conteudoGeneration/java?style=flat-square" />
-
-&#x20; <img src="https://img.shields.io/github/issues-pr/conteudoGeneration/java?style=flat-square" />
-
-</div>
-
-
-
-
-
 \------
 
 
