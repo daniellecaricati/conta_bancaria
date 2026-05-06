@@ -2,14 +2,14 @@ package conta_bancaria.model;
 
 public class ContaPoupanca extends Conta{
 	
-	private float aniversario;
+	private int aniversario;
 	
-	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo, float limite) {
+	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo, int aniversario) {
 		super(numero, agencia, tipo, titular, saldo);	
-		this.aniversario = limite;
+		this.aniversario = aniversario;
 	}
 
-	public float getAniversario() {
+	public int getAniversario() {
 		return aniversario;
 	}
 
