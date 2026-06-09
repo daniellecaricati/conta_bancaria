@@ -1,11 +1,26 @@
 package conta_bancaria;
 
 import java.util.Scanner;
-import conta_bancaria.util.Cores;
 
+import conta_bancaria.model.Conta;
+import conta_bancaria.util.Cores;
 public class Menu {
 
 	public static void main(String[] args) {
+		
+		Conta c1 = new Conta(1, 123, 1, "Adriana Sanches", 10000.0f);
+		
+		c1.visualizar();
+		
+		c1.setSaldo(15000.0f);
+		c1.setTitular("Maria Joaquina");
+		c1.visualizar();
+		
+		c1.sacar(12000.0f);
+		c1.visualizar();
+		
+		c1.depositar(5000.0f);
+		c1.visualizar();
 		
 		Scanner leia = new Scanner(System.in);
 		
