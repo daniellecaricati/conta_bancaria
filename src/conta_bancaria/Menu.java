@@ -146,7 +146,8 @@ public class Menu {
 		case 1 -> {
 			System.out.println("Digite o limite da conta:");
 			float limite = leia.nextFloat();
-			contaController.cadastrar(new ContaPoupanca(contaController.gerarNumero(), agencia, tipo, titular, saldo, limite));
+			contaController.cadastrar(
+					new ContaCorrente(contaController.gerarNumero(), agencia, tipo, titular, saldo, limite));
 		}
 		case 2 -> {
 			System.out.println("Digite o dia do aniversário da conta:");
